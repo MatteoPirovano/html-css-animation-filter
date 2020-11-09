@@ -150,13 +150,44 @@ border-radius: 50%;
 /* esercizio 10*/
 .ex-10-icon.fas.fa-circle-notch {
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 @keyframes rotation {
-  0%   {
-    transform: rotate(360deg)
-  }
+  0%   { transform: rotate(360deg) }
+}
 
+/* esercizio 11*/
+.ex-11-icon.fas.fa-circle-notch:hover {
+  animation-name: hover-spin;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+@keyframes hover-spin {
+  0% { transform: rotate(0); }
+  50% { transform: rotate(290deg); }
+  100% {  transform: rotate(0); }
+}
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: to-right;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+@keyframes to-right {
+  0% { left: 10% }
+  50% { left: calc(100% - 60px); }
+  100% { left: 10%; }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: to-left;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+@keyframes to-left{
+  0% { right: 10% }
+  50% { right: calc(100% - 60px); }
+  100% { right: 10%; }
 }
