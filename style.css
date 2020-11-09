@@ -67,3 +67,10 @@
     width: 60px;
     height: 20px;
 }
+/* soluzioni */
+ .ex-1-square {
+    transition:  3s;
+    }
+.ex-1-square:hover {
+  background: red;
+}
