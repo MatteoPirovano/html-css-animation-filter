@@ -125,7 +125,7 @@ border-radius: 50%;
   transition:  2s;
 }
 .ex-7-img:hover {
-  filter: grayscale(1)
+  filter: grayscale(1) sepia(1);
 }
 
 /* esercizio 8*/
@@ -133,7 +133,7 @@ border-radius: 50%;
   transition:  3s;
 }
 .ex-8-img:hover {
-  filter: sepia(1);
+  filter: sepia(1) grayscale(0.6);
   border-radius: 15px;
 }
 
@@ -142,7 +142,21 @@ border-radius: 50%;
   transition:  3s;
 }
 .ex-9-img:hover {
-  filter: sepia(1);
+  filter: sepia(1) grayscale(0.6);
   border-radius: 15px;
   transform: scale(1.5);
+}
+
+/* esercizio 10*/
+.ex-10-icon.fas.fa-circle-notch {
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotation {
+  0%   {
+    transform: rotate(360deg)
+  }
+
 }
