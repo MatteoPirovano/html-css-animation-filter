@@ -69,9 +69,9 @@
 }
 /* ----------soluzioni ----------*/
 /* esercizio 1 */
- .ex-1-square {
-    transition:  3s;
-    }
+.ex-1-square {
+transition:  3s;
+}
 .ex-1-square:hover {
   background: red;
 }
@@ -82,4 +82,12 @@
 }
 .ex-2-square:active {
   width: 100%;
+}
+
+/* esercizio 23*/
+.ex-3-square {
+  transition:  3s;
+}
+.ex-3-square:hover {
+border-radius: 50%;
 }
