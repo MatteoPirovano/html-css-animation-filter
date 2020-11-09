@@ -136,3 +136,13 @@ border-radius: 50%;
   filter: sepia(1);
   border-radius: 15px;
 }
+
+/* esercizio 9*/
+.ex-9-img {
+  transition:  3s;
+}
+.ex-9-img:hover {
+  filter: sepia(1);
+  border-radius: 15px;
+  transform: scale(1.5);
+}
