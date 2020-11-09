@@ -100,3 +100,16 @@ border-radius: 50%;
 .ex-4-square:hover {
   opacity: 0;
 }
+
+/* esercizio 5*/
+.ex-5-square {
+  transition:  1s;
+}
+.ex-5-square:hover {
+  height: 150px;
+  width: 150px;
+}
+.ex-5-square:active {
+  height: 30px;
+  width: 30px;
+}
