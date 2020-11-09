@@ -84,10 +84,19 @@ transition:  3s;
   width: 100%;
 }
 
-/* esercizio 23*/
+/* esercizio 3*/
 .ex-3-square {
   transition:  3s;
 }
 .ex-3-square:hover {
 border-radius: 50%;
+}
+
+/* esercizio 4*/
+.ex-4-square {
+  opacity: 1;
+  transition:  3s;
+}
+.ex-4-square:hover {
+  opacity: 0;
 }
