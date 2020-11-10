@@ -166,7 +166,7 @@ border-radius: 50%;
 }
 @keyframes hover-spin {
   0% { transform: rotate(0); }
-  50% { transform: rotate(290deg); }
+  50% { transform: rotate(270deg); }
   100% {  transform: rotate(0); }
 }
 
@@ -190,4 +190,68 @@ border-radius: 50%;
   0% { right: 10% }
   50% { right: calc(100% - 60px); }
   100% { right: 10%; }
+}
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: oleft;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+@keyframes oleft {
+0% {
+left: 10%;
+top: -10px;
+}
+30% {
+left: calc(100% - 30px);
+top: -10px;
+}
+45% {
+left: calc(100% - 30px);
+top: 100%;
+}
+75% {
+left: 0;
+top: 100%;
+}
+90% {
+left: -15px;
+top: -10px;
+}
+100% {
+left: 10%;
+top: -10px;
+}
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: oright;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+@keyframes oright {
+0% {
+bottom: -10px;
+right: 20%;
+}
+30% {
+right: calc(100% - 30px);
+bottom: -10px;
+}
+45% {
+right: calc(100% - 30px);
+bottom: 100%;
+}
+75% {
+right: 0;
+bottom: 100%;
+}
+90% {
+right: -15px;
+bottom: -10px;
+}
+100% {
+bottom: -10px;
+right: 20%;
+}
 }
